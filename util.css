@@ -22,6 +22,7 @@ body {
     align-items: center;
     color: white;
     text-align: center;
+    cursor: pointer;
 }
 
 .main h1 {
@@ -48,6 +49,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .logo img {
@@ -210,6 +212,7 @@ footer {
 footer>div>img {
     width: 30px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .Quick-link {
@@ -254,12 +257,6 @@ footer div p {
         /* Slide in from the right */
     }
 }
-
-
-
-
-
-
 
  @media screen and (max-width: 550px) {
     .nav-links{
