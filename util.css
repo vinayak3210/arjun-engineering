@@ -30,10 +30,6 @@ body {
 }
 
 
-/* .main>h1 {
-    font-size: 1.5rem;
-} */
-
 /* Navigation bar styling */
 nav {
     display: flex;
@@ -103,7 +99,8 @@ nav {
 }
 
 .nav-links ul li a:hover {
-    color: #ff6347;
+    color: #ff6347;    
+    transition: 0.2s ease;
 }
 
 h2 {
@@ -158,6 +155,21 @@ hr {
     margin: 40px 40px;
 }
 
+#hidden{
+    display: none;
+}
+
+#See{
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+}
 
 /* === ABOUT SECTION === */
 
@@ -237,6 +249,59 @@ footer div p {
     width: 70vw;
     margin: auto;
 }
+
+
+/*  === CONTACT PAGE === */
+.call{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.call >img{    
+    width: 30px;
+    height: 30px;
+}
+
+.child{
+    width: 45%;
+}
+
+.call-child{
+    padding: 10px;
+}
+
+
+.contact-page{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.form{
+    width: 45%;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: #f3f3f3;
+    border: none;
+}
+
+
+.contact-btn{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color:#ff6347;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
 
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 768px) {

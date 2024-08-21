@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="util.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Contact Us</title>
+    <link rel="stylesheet" href="util.css" />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-            <img src="img/logo.jpg" alt="Arjun Engineering">
-            <h1>Arjun Engineering</h1>
-        </div>
-        <div class="menu-icon" onclick="toggleMenu(1)">
-            &#9776;
-        </div>
-        <div id="nav-links" class="nav-links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
+      <div class="logo">
+        <img src="img/logo.jpg" alt="Arjuna Engineering" />
+        <h1>Arjun Engineering</h1>
+      </div>
+      <div class="menu-icon" onclick="toggleMenu(1)">&#9776;</div>
+      <div id="nav-links" class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
     </nav>
-    
+
     <div class="main">
-        <h1>Arjun Engineering Works</h1>
+      <h1>Arjun Engineering Works</h1>
     </div>
-</body>
+    
+
+    <div class="contact-page">
+      <div class="child">
+        <h2>Call Us or Fill the Form</h2>
+        <div class="call">
+          <img src="img/call.png"  alt="" />
+          <div class="call-child">
+            <p>+91 1001200011</p>
+            <p>Don't hesitate to contact us</p>
+          </div>
+        </div>
+
+        <div class="call">
+          <img src="img/mail.png"  alt="" />
+          <div class="call-child">
+              <p> abc@gmail.com</p>
+              <p>Don't hesitate to contact us</p>
+           </div>
+         </div>
+
+         <div class="call">
+          <img src="img/location.png" alt="">
+          <div class="call-child">
+          <p>Balgarh Road bypass near
+             Raj Restaurant </p>
+         </div>
+        </div>
+      </div>
+      <form action="https://formspree.io/f/mzzpjznl" method="post">
+        <input type="name" placeholder="Name" required>
+        <input type="contact" placeholder="contact"required>
+        <input type="email" name="email" placeholder="Mail">
+        <input type="massage" class="massage" placeholder="How Can Help? " required>
+        <button class="contact-btn"> Submit </button>
+      </form>
+    </div>
+    <footer>
+      <div class="icon">
+        <img src="img/icons-fb.png" alt="" />
+        <img src="img/icons-insta.png" alt="">
+        <img src="img/icons-twitter.png" alt="">
+      </div>
+  
+      <div class="Quick-link">
+        <a href="">Term & Condition </a>
+        <a href=""> Career</a>
+        <a href=""> Privacy Policy</a>
+      </div>
+      <div>
+        <p>&#169 Arjun Engineering Works. All Rights Reserved.</p>
+      </div>
+    </footer>  
+  </body>
 </html>
